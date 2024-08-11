@@ -2,11 +2,18 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+div#controls {
+    background-color: #F6F6FE;
+    display: flex;
+    gap: 16px;
+    padding: 32px;
+    border-radius: 8px;
+}
+
 input {
-    
     border: 1px solid #808080;
     border-radius: 8px;
-    padding: 8px 72px;
+    width: 150px;
 }
 
 button {
@@ -30,7 +37,12 @@ button {
     background-color: #ff4e4e;
 }
 
-.boxes {
+div#boxes {
+    background-color: #F6F6FE;
+    margin-top: 16px;
+    padding: 32px;
+    border-radius: 8px;
     display: flex;
+    flex-wrap: wrap;
     gap: 44px;
 }

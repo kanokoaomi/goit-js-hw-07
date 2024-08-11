@@ -18,7 +18,8 @@ input {
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #2e2f42;
-    padding: 8px 140px 8px 16px;
+    width: 360px;
+    padding: 8px 100px 8px 16px;
     border-radius: 4px;
     border: 1px solid #808080;
 }
